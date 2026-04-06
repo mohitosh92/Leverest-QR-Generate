@@ -2,10 +2,10 @@ import streamlit as st
 import qrcode
 from io import BytesIO
 
-st.title("Mohitosh QR Code Generator")
+st.title("QR Code Generator")
 
 # Input for link
-data = st.text_input("Put the link to generate QR Code:")
+data = st.text_input("Put the Web link to generate QR Code:")
 
 # Input for file name
 name = st.text_input("Enter the QR Code Name:")
